@@ -1,0 +1,76 @@
+:root {
+  --bg: #fbf7f9;
+  --card: #ffffff;
+  --text: #1c1a1f;
+  --muted: #6b6570;
+  --line: #eee6eb;
+  --accent: #ea3c7a;
+  --accent-soft: #fde6ef;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121014;
+    --card: #1d1a20;
+    --text: #f3eef3;
+    --muted: #a59dab;
+    --line: #2d2830;
+    --accent: #ff5c93;
+    --accent-soft: #3a1d2a;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.hero {
+  background: linear-gradient(160deg, #ff5c93 0%, #ea3c7a 40%, #8b3cf0 100%);
+  color: #fff;
+  padding: 48px 16px 64px;
+}
+.hero .wrap { display: flex; align-items: center; gap: 20px; }
+.hero img { width: 88px; height: 88px; border-radius: 20px; box-shadow: 0 10px 30px rgba(60, 0, 50, .3); flex: none; }
+.hero h1 { margin: 0; font-size: 34px; line-height: 1.1; letter-spacing: -.02em; }
+.hero p { margin: 6px 0 0; opacity: .92; }
+.wrap { max-width: 760px; margin: 0 auto; }
+main { padding: 0 16px 48px; margin-top: -32px; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+h2 { font-size: 21px; margin: 0 0 12px; letter-spacing: -.01em; }
+h3 { font-size: 17px; margin: 20px 0 4px; }
+h3:first-of-type { margin-top: 4px; }
+p { margin: 0 0 10px; }
+.muted { color: var(--muted); font-size: 15px; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  margin: 6px 8px 0 0;
+}
+.btn.soft { background: var(--accent-soft); color: var(--accent); }
+.btn:hover { text-decoration: none; opacity: .92; }
+nav.top { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 18px; font-size: 15px; }
+nav.top a { color: #fff; opacity: .95; border-bottom: 1px solid rgba(255,255,255,.5); }
+nav.top a:hover { text-decoration: none; opacity: 1; }
+ul { margin: 0 0 10px; padding-left: 20px; }
+li { margin: 4px 0; }
+footer { text-align: center; color: var(--muted); font-size: 14px; padding: 8px 16px 40px; }
+@media (max-width: 480px) {
+  .hero { padding: 36px 16px 56px; }
+  .hero h1 { font-size: 28px; }
+  .hero img { width: 68px; height: 68px; border-radius: 16px; }
+  .card { padding: 20px; }
+}
