@@ -74,3 +74,7 @@ footer { text-align: center; color: var(--muted); font-size: 14px; padding: 8px 
   .hero img { width: 68px; height: 68px; border-radius: 16px; }
   .card { padding: 20px; }
 }
+
+.compatibility { margin-top: 16px; }
+nav.top a[aria-current="page"] { font-weight: 700; border-bottom-width: 2px; }
+.btn { overflow-wrap: anywhere; }
