@@ -18,4 +18,6 @@ The website includes localized screenshots of the published app:
 - Support: https://nikrev.github.io/tonus/
 - Privacy Policy: https://nikrev.github.io/tonus/privacy.html
 
-Screenshots are served from Apple's public image CDN and match App Store version 1.3. Update them after a newer version is confirmed publicly available.
+Screenshots were retrieved from Apple's public App Store listing on 13 October 2026 and match the publicly verified version 1.4. They are hosted locally in assets/screenshots/.
+
+Product guides and press facts: https://nikrev.github.io/tonus/guides/index-en.html

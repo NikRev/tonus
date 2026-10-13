@@ -87,3 +87,17 @@ nav.top a[aria-current="page"] { font-weight: 700; border-bottom-width: 2px; }
   .screens-gallery { display: flex; overflow-x: auto; gap: 14px; scroll-snap-type: x proximity; padding-bottom: 8px; }
   .screens-gallery figure { flex: 0 0 190px; scroll-snap-align: start; }
 }
+
+/* Product guides and press facts */
+.guide-hero h1 {font-size:30px;line-height:1.2;overflow-wrap:anywhere}
+.guide-hero .wrap:first-child{align-items:flex-start}
+.guide {line-height:1.75;overflow-wrap:anywhere}
+.guide h2 {margin-top:28px}
+.guide .lead {font-size:18px}
+.breadcrumbs {font-size:15px;margin-bottom:16px}
+.health-note {border-top:1px solid var(--line);padding-top:16px;margin-top:24px}
+.guide-list {list-style:none;padding:0}
+.guide-list li {margin:20px 0}
+.guide-list a {font-size:20px;font-weight:600}
+.guide-list p {font-size:16px;margin-top:8px}
+@media(max-width:480px){.guide-hero h1{font-size:25px}.guide-hero .wrap:first-child{display:block}.guide-hero img{margin-bottom:16px}}
