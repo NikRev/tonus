@@ -4,7 +4,7 @@ Tonus is a home workout app for iPhone with 5, 10 and 20-minute sessions, option
 
 [Download Tonus on the App Store](https://apps.apple.com/app/id6793913378?pt=126798146&ct=tonus_github_readme_20261011&mt=8)
 
-Plans and written instructions work offline. Online videos need internet access; external video platforms may show ads. Workout history and Apple Health data stay on the device.
+Plans and written instructions work offline. Online videos need internet access; external video platforms may show ads. Workout history is saved on the device. Apple Health integration is optional; Health data can sync with iCloud depending on the user’s iPhone settings.
 
 The website includes localized screenshots of the published app:
 
