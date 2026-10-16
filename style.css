@@ -101,3 +101,7 @@ nav.top a[aria-current="page"] { font-weight: 700; border-bottom-width: 2px; }
 .guide-list a {font-size:20px;font-weight:600}
 .guide-list p {font-size:16px;margin-top:8px}
 @media(max-width:480px){.guide-hero h1{font-size:25px}.guide-hero .wrap:first-child{display:block}.guide-hero img{margin-bottom:16px}}
+
+.article-screenshot { margin: 28px auto; max-width: 320px; }
+.article-screenshot img { display: block; width: 100%; height: auto; border-radius: 20px; border: 1px solid var(--line); }
+.article-screenshot figcaption { margin-top: 12px; color: var(--muted); font-size: 14px; line-height: 1.5; }
