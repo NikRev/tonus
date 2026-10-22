@@ -21,3 +21,5 @@ The website includes localized screenshots of the published app:
 Screenshots were retrieved from Apple's public App Store listing on 13 October 2026 and match the publicly verified version 1.4. They are hosted locally in assets/screenshots/.
 
 Product guides and press facts: https://nikrev.github.io/tonus/guides/index-en.html
+
+Widget and Live Activity guide captures in assets/guides/ are unmodified iOS Simulator screenshots from release-1.3 QA with demonstration data and Russian interface. The article captions state their origin. The guide describes features checked against Tonus 1.4.
