@@ -27,3 +27,5 @@ Widget and Live Activity guide captures in assets/guides/ are unmodified iOS Sim
 Short-session styles guide captures in assets/guides/styles-* are unmodified Tonus 1.4 QA screenshots with demonstration data. The article labels the Portuguese home screen and English plan preferences individually.
 
 Reminder and sharing guide images added on 27 October 2026 are unmodified Tonus 1.4 QA screenshots and a real WeeklyShareCard test export. Captions identify Portuguese, Russian and English images and demonstration data.
+
+French learning and strength setup guides added on 27 October 2026 use unmodified French Tonus 1.4 QA captures, with their origin stated in captions.
