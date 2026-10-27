@@ -25,3 +25,5 @@ Product guides and press facts: https://nikrev.github.io/tonus/guides/index-en.h
 Widget and Live Activity guide captures in assets/guides/ are unmodified iOS Simulator screenshots from release-1.3 QA with demonstration data and Russian interface. The article captions state their origin. The guide describes features checked against Tonus 1.4.
 
 Short-session styles guide captures in assets/guides/styles-* are unmodified Tonus 1.4 QA screenshots with demonstration data. The article labels the Portuguese home screen and English plan preferences individually.
+
+Reminder and sharing guide images added on 27 October 2026 are unmodified Tonus 1.4 QA screenshots and a real WeeklyShareCard test export. Captions identify Portuguese, Russian and English images and demonstration data.
